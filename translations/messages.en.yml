@@ -1,97 +1,97 @@
-# translations/messages.fr.yaml
+# translations/messages.en.yaml
 ui:
-    home: "Accueil"
+    home: "Home"
     menu: "Menu"
-    see_more: "En savoir plus"
-    see_all: "Tout voir"
-    delete: "Supprimer"
-    settings: "Paramètres"
-    confirm: "Êtes-vous sûr·e ?"
-    cancel: "Annuler"
+    see_more: "Show more"
+    see_all: "Show all"
+    delete: "Delete"
+    settings: "Settings"
+    confirm: "Are your sure?"
+    cancel: "Cancel"
 
 forms:
-    mandatory: "Champs obligatoires *"
+    mandatory: "Mandatory fields *"
     user:
         email:
-            label: "Adresse e-mail"
-            placeholder: "Entrez votre adresse e-mail ici…"
+            label: "E-mail address"
+            placeholder: "Enter your e-mail address here…"
         password:
-            label: "Mot de passe"
-            placeholder: "Entrez votre mot de passe ici…"
+            label: "Password"
+            placeholder: "Enter your e-mail address here…"
         name:
-            label: "Votre nom complet"
-            placeholder: "Entrez votre prénom et votre nom…"
+            label: "Your full name"
+            placeholder: "Enter your first and last name…"
         display_name:
-            label: "Comment faut-il vous appeler ?"
-            placeholder: "Entrez, au choix, votre prénom, votre nom, un pseudo…"
+            label: "How do you want to be called?"
+            placeholder: "Enter your first name, your full name, a nickname…"
         avatar:
-            label: "Image de profil"
-            button: "Parcourir"
-            hint: "Format JPG ou PNG, 500 ko maximum"
+            label: "Profile picture"
+            button: "Browse"
+            hint: "JPG or PNG format, 500 Kb maximum"
         city:
-            label: "Ville"
-            placeholder: "Entrez votre ville…"
+            label: "City"
+            placeholder: "Enter your city…"
         zipcode:
-            label: "Code Postal"
-            placeholder: "Entrez votre code postal…"
+            label: "Postcode"
+            placeholder: "Enter your postal code…"
         country:
             label: "Pays"
-            placeholder: "Entrez votre pays…"
+            placeholder: "Enter your country…"
         presentation:
-            label: "Présentez-vous en deux mots"
-            hint: "Limité à 32 caractères (sera affiché sous votre nom)"
-            placeholder: "Exemple : Botaniste"
+            label: "Introduce yourself in a couple words"
+            hint: "Limited to 32 characters (will be displayed under your name)"
+            placeholder: "Example: Botanist"
         bio:
             label: "Bio"
-            hint: "Précisez ce que vous faites dans la vie, ce que vous recherchez sur la plateforme… (sera affiché sur votre profil)"
-            placeholder: "Dites nous en plus sur vous…"
+            hint: "hint: "Explain what are your occupations, what you're looking for on this platform… (will be de)""
+            placeholder: "Tell us more about yourself…"
         inscription_type:
-            label: "Type d’inscription"
+            label: "Type of registration"
             labels:
-                private: "Inscription à titre personnel"
-                professional: "Inscription à titre professionnel"
+                private: "Registration as a private individual"
+                professional: "Registration as a professional"
         skills:
-            label: "Vos compétences"
-            hint: "Sélectionnez dans la liste proposée les compétences que vous souhaitez partager"
+            label: "Your skills"
+            hint: "Pick in the list the skills you want to share with the community"
         site:
-            label: "Votre site naturel"
-            hint: "Parce que vous y travaillez, vous y habitez ou simplement si vous êtes particlièrement attaché·e à un site naturel en particulier"
-            placeholder: "Exemple : Parc naturel régional des volcans d'Auvergne"
+            label: "Your natural space"
+            hint: "Because you work there, you live there or simply if you're especially interested in a specific natural space"
+            placeholder: "Example: …"
 
     group:
         name:
-            label: "Nom du groupe"
-            placeholder: "Exemple : Autour des glaciers"
+            label: "Group name"
+            placeholder: "Example: About glaciers"
         slug:
             label: "Identifiant"
             placeholder: "Sera généré automatiquement"
         logo:
-            label: "Icône du groupe"
-            hint: "Format JPG ou PNG, 500 Ko maximum"
-            button: "Parcourir"
+            label: "Group icon"
+            hint: "JPG or PNG format, 500 Kb maximum"
+            button: "Browse"
         cover:
-            label: "Image de couverture"
-            hint: "Format JPG ou PNG, 500 Ko maximum"
-            button: "Parcourir"
+            label: "Cover picture"
+            hint: "JPG or PNG format, 500 Kb maximum"
+            button: "Browse"
         visibility:
-            label: "Visibilité du groupe"
+            label: "Group visibility"
             placeholder: ""
         description:
             label: "Description"
             hint: "Précisez les but et intention de votre groupe."
             placeholder: "Dites nous en plus sur votre groupe…"
         presentation:
-            label: "Présentation"
-            placeholder: "Présentation du groupe, ses objectifs..."
+            label: "Presentation"
+            placeholder: "Presentation du groupe, ses objectifs..."
 
     page:
         cover:
-            label: "Image de couverture"
-            hint: "Format JPG ou PNG, 500 Ko maximum"
-            button: "Parcourir"
+            label: "Cover picture"
+            hint: "JPG or PNG format, 500 Kb maximum"
+            button: "Browse"
         title:
             label: "Titre de page"
-            placeholder: "Exemple : Présentation"
+            placeholder: "Example: Presentation"
         body:
             label: "Contenu de la page"
             placeholder: ""
@@ -99,8 +99,8 @@ forms:
     article:
         cover:
             label: "Ajouter une image qui sera utilisée en Entête de l’actualité (facultatif)"
-            hint: "Format JPG ou PNG, 500 Ko maximum"
-            button: "Parcourir"
+            hint: "JPG or PNG format, 500 Kb maximum"
+            button: "Browse"
         title:
             label: "Titre"
             placeholder: "Entrez le titre de votre article ici…"
@@ -112,7 +112,7 @@ forms:
         file:
             label: "Ajouter un fichier"
             hint: "Format JPG ou PNG, DOC, … 500 Ko maximum"
-            button: "Parcourir"
+            button: "Browse"
         title:
             label: "Nom du document"
             placeholder: ""
